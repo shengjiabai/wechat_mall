@@ -1,16 +1,17 @@
 //获取应用实例
 var app = getApp()
 import {rootUrl} from '../../utils/params'
+//var call = require("../util/request.js")
 Page({
     data: { 
       imgUrls: [  
             {  
                 link:`/pages/proInfo/index?id=85`, 
-          url:'https://pic0.test.com/item/user_0102/desc20190428/64b1c76a54accaee_-1x-1.jpg' 
+          url:'https://pic0.te.com/item/user_0102/desc20190428/64b1c76a54accaee_-1x-1.jpg' 
                // url:`${rootUrl}/images/upload/index_ppt_001.jpg` 
             },{  
                 link:'/pages/proInfo/index?id=93',  
-          url:'https://pic2.test.com/item/user_0102/desc20190423/4b984cafcec68f45_-1x-1.jpg'
+          url:'https://pic2.sds.com/item/user_0102/desc20190423/4b984cafcec68f45_-1x-1.jpg'
                // url:`${rootUrl}/images/upload/index_ppt_003.jpg`  
             }   
         ],
