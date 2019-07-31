@@ -5,9 +5,9 @@ Page( {
     // projectSource: 'https://github.com/liuxuanqiang/wechat-weapp-mall',
     userListInfo: [ {
       icon: '../../images/orders-icon.png',
-      text: '我的订单'
-      // isunread: true,
-      // unreadNum: 2
+      text: '我的订单',
+      isunread: true,
+      unreadNum: 2
     }, 
     // {4px
     //     icon: '../../images/iconfont-card.png',
@@ -23,7 +23,9 @@ Page( {
       // }, 
       {
         icon: '../../images/adress-icon.png',
-        text: '收货地址管理'
+        text: '收货地址管理',
+        isunread: true,
+        unreadNum: 2
       }, 
       // {
       //   icon: '../../images/iconfont-kefu.png',

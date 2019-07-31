@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/proInfo/index",
     "pages/address/address",
+    "pages/addresss/index",
     "pages/orders/index",
     "pages/my/index",
     "pages/cart/cart"

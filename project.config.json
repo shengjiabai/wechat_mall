@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -23,7 +23,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.6",
 	"appid": "wxb3b32409837efafb",
-	"projectname": "miniprogram-test-2",
+	"projectname": "wechat_mall",
 	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
 		"hidedInDevtools": []
