@@ -5,7 +5,7 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="info_list">
-    <block wx:for="{{userListInfo}}">
+    <!-- <block wx:for="{{userListInfo}}">
         <view class="weui_cell">
             <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view>
             <view class="weui_cell_bd">
@@ -14,6 +14,23 @@
             <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
             <view class="with_arrow"></view>
         </view>
-    </block>
-  </view>
+    </block> -->
+      <view class="weui_cell"  bindtap="tap_order">
+            <view class="weui_cell_hd"><image src="../../images/orders-icon.png"></image></view>
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p">我的订单 </view>
+            </view>
+            <view class="with_arrow"></view>
+      </view>
+
+        <view class="weui_cell"  bindtap="tap_address">
+            <view class="weui_cell_hd"><image src="../../images/adress-icon.png"></image></view>
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p">收货地址管理</view>
+            </view>
+            <view class="with_arrow"></view>
+        </view>
+
+  
+  </view> 
 </view>

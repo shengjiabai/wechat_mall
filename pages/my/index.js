@@ -3,12 +3,14 @@ Page( {
   data: {
     userInfo: {},
     // projectSource: 'https://github.com/liuxuanqiang/wechat-weapp-mall',
-    userListInfo: [ {
-      icon: '../../images/orders-icon.png',
-      text: '我的订单',
-      isunread: true,
-      unreadNum: 2
-    }, 
+    userListInfo: [ 
+    //   {
+    //   icon: '../../images/orders-icon.png',
+    //  // icon: '../../images/order.png',
+    //   text: '我的订单',
+    //   isunread: true,
+    //   unreadNum: 2
+    // }, 
     // {4px
     //     icon: '../../images/iconfont-card.png',
     //     text: '我的代金券',
@@ -21,12 +23,12 @@ Page( {
       //   isunread: true,
       //   unreadNum: 1
       // }, 
-      {
-        icon: '../../images/adress-icon.png',
-        text: '收货地址管理',
-        isunread: true,
-        unreadNum: 2
-      }, 
+      // {
+      //   icon: '../../images/adress-icon.png',
+      //   text: '收货地址管理',
+      //   isunread: true,
+      //   unreadNum: 2
+      // }, 
       // {
       //   icon: '../../images/iconfont-kefu.png',
       //   text: '联系客服'
@@ -47,5 +49,11 @@ Page( {
         userInfo: userInfo
       })
     })
-  }
+  },
+  // 联系地址
+  tap_address: function (e) {
+    wx.navigateTo({
+      url: "../addresss/index"
+    })
+  },
 })
